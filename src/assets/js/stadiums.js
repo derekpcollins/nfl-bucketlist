@@ -181,7 +181,7 @@ const stadiums = [
 	},
 	{
 		name: "MetLife Stadium",
-		team: "New York Giants/Jets",
+		team: "New York Giants + Jets",
 		location: {
 			city: "East Rutherford",
 			state: "NJ",
@@ -226,7 +226,7 @@ const stadiums = [
 	},
 	{
 		name: "SoFi Stadium",
-		team: "Los Angeles Rams/Chargers",
+		team: "Los Angeles Rams + Chargers",
 		location: {
 			city: "Inglewood",
 			state: "CA",
