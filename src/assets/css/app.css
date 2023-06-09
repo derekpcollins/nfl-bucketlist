@@ -58,7 +58,7 @@ h1 {
 	padding: 0 0 48px 0;
 }
 
-#stadium-list li {
+#stadiums-list li {
 	background-color: rgba(255, 255, 255, 1);
 	margin: 24px;
 	min-height: 220px;
@@ -73,24 +73,24 @@ h1 {
 		-0.1px 1.3px 1.5px -1.7px hsl(var(--shadow-color) / 0.36), -0.2px 3.2px 3.6px -2.5px hsl(var(--shadow-color) / 0.36);
 }
 
-#stadium-list img {
+#stadiums-list img {
 	max-height: 100px;
 	max-width: 150px;
 }
 
-#stadium-list .visited {
+#stadiums-list .visited {
 	border: 4px solid gold;
 }
 
-#stadium-list .visited img {
+#stadiums-list .visited img {
 	filter: grayscale(1);
 }
 
-#stadium-list .visited * {
+#stadiums-list .visited * {
 	opacity: 0.4;
 }
 
-#stadium-list .visited:before {
+#stadiums-list .visited:before {
 	content: "";
 	background-color: gold;
 	position: absolute;
@@ -101,7 +101,7 @@ h1 {
 	width: 80px;
 }
 
-#stadium-list .visited::after {
+#stadiums-list .visited::after {
 	font: var(--fa-font-solid);
 	content: "\f00c";
 	color: #fff;

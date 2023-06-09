@@ -15,11 +15,14 @@ Documenting our attempt to visit every NFL stadium.
 
 To serve the site locally:
 
-`npx serve src/`
+```
+cd src
+npx serve
+```
 
 You can optionally specifying a port by passing in a `-p` flag, such as:
 
-`npx serve src/ -p 3030`
+`npx serve -p 3030`
 
 Or using Vercel
 

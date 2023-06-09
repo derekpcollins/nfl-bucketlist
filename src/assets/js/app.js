@@ -62,5 +62,5 @@ const addStadiums = (data) => {
 	});
 };
 
-addstadiums(stadiums);
+addStadiums(stadiums);
 addProgress(stadiums, document.getElementById("progress"));
